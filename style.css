@@ -1,0 +1,44 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 40px;
+    line-height: 1.6;
+    color: #000;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.header p {
+    margin: 2px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
