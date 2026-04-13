@@ -9,30 +9,39 @@ body {
 
 /* Cabeçalho e Logos */
 .header {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid #003366; /* Azul Unicamp */
+    border-bottom: 2px solid #003366;
     padding-bottom: 20px;
     margin-bottom: 30px;
+    width: 100%;
+    
 }
 
-/* Container para as logos */
-.logo-container {
+.header-content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+}
+
+.logo {
+    height: 150px; /* Ajuste a altura conforme necessário */
+    width: auto;
+    margin-bottom: 10px;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    flex-grow: 1; /* Garante que o texto ocupe o espaço central */
     font-size: 20px;
 }
 
-.logo-container img {
-    height: 100px; /* Tamanho padronizado para as logos */
-    width: auto;
+.text-container p {
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Opcional: remover negrito das duas últimas linhas como na imagem */
+.text-container p:nth-child(n+4) {
+    font-weight: normal;
+    font-size: 18px;
 }
 
 .header p {
@@ -61,10 +70,24 @@ h1 {
     background-color: #f9f9f9;
 }
 
+.sla {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Imagem do QR Code */
+
+#qrcode {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+}
+
 /* Corpo de Texto */
 p {
     text-align: justify;
-    text-indent: 1.25cm; /* Recuo de parágrafo clássico */
     margin-bottom: 12px;
 }
 
